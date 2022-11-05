@@ -27,14 +27,14 @@ hr{
 
 .primary-link{
     color :white;
-    background-color: #fca5a5;
+    background-color:#fca5a5 ;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     color: white;
 }
 a:hover{
-    background-color: grey;
+    background-color: #fee2e2;
     /* position: absolute; */
     /* display: block; */
     visibility: visible;
@@ -103,8 +103,9 @@ a:hover{
     background-color: #e2e8f0;
 }
 .link{
-    list-style:none;
+    list-style-type:none;
     color:white;
+    text-decoration: none;
 }
 
 .main-footer{
