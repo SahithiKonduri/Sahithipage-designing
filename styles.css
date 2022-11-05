@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Noto+Sans&display=swap');
+
+.root {
+    --primary-color: #fca5a5;
+    
+}
+
+body 
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+}
+hr{
+    margin: 2rem;
+}
+
+/* Containers in CSS */
+.fluid-container {
+    padding: 1rem 0;
+
+}
+.center-container {
+     max-width: 150px;
+     margin: 10px 5px 15px 20px;
+}
+
+
+.primary-link{
+    color :white;
+    background-color: #fca5a5;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+a:hover{
+    background-color: grey;
+    /* position: absolute; */
+    /* display: block; */
+    visibility: visible;
+}
+.secondary-link {
+    color:#fca5a5;
+    border:2px solid #fca5a5;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+ .non-bullet-list{
+    list-style: none;
+ }
+ .list-item-inline {
+    display:inline;
+    padding:0rem 0.5rem;
+}
+
+.navigation {
+    background-color:#fca5a5;
+    color:white;
+    border-radius: 0rem 0.5rem;
+    padding:1rem 0rem;
+
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .links{
+     text-decoration: none;
+     color:var(--primary-color);
+     text-align: right;
+}
+
+.navigation .nav-brand{
+    font-size:x-large;
+    font-weight: bold;
+
+}
+.navigation .link-active{
+    font-weight:bold;
+}
+.main {
+    padding:2rem;
+}
+.main .main-image{
+    max-width: 350px;
+    display :block;
+    margin:auto;
+}
+ .main .main-heading{
+    text-align: center;
+    color:grey;
+}
+.section h1{
+    text-align: center;
+    
+}
+.section{
+    padding:2rem 0rem;
+    text-align: center;
+}
+.section-ow{
+    background-color: #e2e8f0;
+}
+.link{
+    list-style:none;
+    color:white;
+}
+
+.main-footer{
+    background-color: #fca5a5;
+    padding:2rem 0rem;
+    text-align: center;
+    color:white;
+}
+ul{
+    padding-inline-start: 0px;
+}
