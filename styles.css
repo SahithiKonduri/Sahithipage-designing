@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex Sans sans-serif=swap');
 
 .root {
     --primary-color: #fca5a5;
@@ -8,45 +8,56 @@
 body 
 {
     font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'Noto Sans', sans-serif;
+}
+/* section{
+    display: block;
+} */
+div {
+    display: block;
 }
 hr{
     margin: 2rem;
 }
 
+h1 {
+    margin:0.5rem;
+    font-size: 1.5rem;
+}
+
 /* Containers in CSS */
 .fluid-container {
-    padding: 1rem 0;
+    padding: 1rem 0rem;
 
 }
 .center-container {
-     max-width: 150px;
-     margin: 10px 5px 15px 20px;
+    max-width: 900px;
+    width :100%;
+    margin:auto;
 }
 
 
 .primary-link{
-    color :white;
+    
+    border: 3px solid #fca5a5;
     background-color:#fca5a5 ;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    color: white;
+    border-radius: 2rem;
+    color :white;
 }
 a:hover{
     background-color: #fee2e2;
-    /* position: absolute; */
-    /* display: block; */
     visibility: visible;
 }
 .secondary-link {
     color:#fca5a5;
     border:2px solid #fca5a5;
     text-decoration: none;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     padding: 0.5rem 1rem;
+    
 }
- .non-bullet-list{
+ .list-non-bullet{
     list-style: none;
  }
  .list-item-inline {
@@ -57,9 +68,10 @@ a:hover{
 .navigation {
     background-color:#fca5a5;
     color:white;
-    border-radius: 0rem 0.5rem;
-    padding:1rem 0rem;
-
+    border-bottom-left-radius: 1rem;
+    padding:1rem;
+   
+   
 }
 .navigation .nav-pills{
     text-align: right;
@@ -72,7 +84,7 @@ a:hover{
 }
 
 .navigation .nav-brand{
-    font-size:x-large;
+    font-size:larger;
     font-weight: bold;
 
 }
@@ -80,7 +92,7 @@ a:hover{
     font-weight:bold;
 }
 .main {
-    padding:2rem;
+    padding:1rem;
 }
 .main .main-image{
     max-width: 350px;
@@ -91,16 +103,20 @@ a:hover{
     text-align: center;
     color:grey;
 }
-.section h1{
-    text-align: center;
-    
+.main .main-inverted{
+    color: #fca5a5;
 }
+
 .section{
-    padding:2rem 0rem;
+    /* padding-bottom: 2rem;  */
+    /* margin : 2rem 0rem; */
     text-align: center;
 }
 .section-ow{
-    background-color: #e2e8f0;
+    background-color: #f3f4f6;
+    border-radius: 1rem 1rem;
+    padding:2rem 0rem;
+    margin:2rem 0rem;
 }
 .link{
     list-style-type:none;
@@ -110,9 +126,12 @@ a:hover{
 
 .main-footer{
     background-color: #fca5a5;
-    padding:2rem 0rem;
+    padding:2rem 2rem;
     text-align: center;
     color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top-right-radius: 1rem;
 }
 ul{
     padding-inline-start: 0px;

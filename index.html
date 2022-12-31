@@ -4,54 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
-    
-    
+    <title>home | aspire Developer</title>
+ 
 </head>
 <body>
-    <link href="styles.css" rel="stylesheet" />
-    <!-- <h1 style="color :red">Sahithi's Component library</h1> -->
-    <h1 >@typograph</h1>  
-    <h1>First biggest heading</h1>
-    <h2>Second biggest heading</h2>
-    <p>In this lesson I'm going to learn about component library and how to use it while making our website.</p>
-    <small>And in this we see relatively smaller text than paragraph.</small>
-
-    <hr />
-    <h1>@containers</h1>
-    <h2>@fluid-container</h2> 
-    <div class="fluid-container">This fluid container it will go till end of the page.</div>
-    <h2>@center -container</h2>
-    <div class="center-container">This center container is used to move the text to center</div>
-    <hr>
-    <h1>@links</h1>
-    <a class="primary-link" href ="/">primary link</a>
-    <a class="secondary-link" href="/">secondary link</a>
-    <hr>
-    <h1>@lists</h1>
-    <h2>unordered list</h2>
-    <p >We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
-    <u1 class="non-bullet-list">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </u1>
-    <h2>unordered inline list</h2>
-    <p>This inline list shows the items in single row.</p>
-    <ul class="list-item-inline">
-        <li class="list-item-inline">Item One</li>
-        <li class="list-item-inline">Item Two</li>
-        <li class="list-item-inline">Item Three</li>
-    </ul>
-    <h2>reverse order list</h2>
-    <p>This will show the reverse order using CSS</p>
-    <ol reversed>
-        <li>milk</li>
-        <li>bread</li>
-        <li>eggs</li>
-    </ol>
-    <hr/>
-    <h1>@navigation</h1>
+    
+    <link href="styles.css" rel="stylesheet"/>
     <nav  class="navigation">
         <div class="nav-brand">Aspire Developer</div>
         <ul class="non-bullet-list nav-pills">
@@ -59,51 +17,48 @@
             <a class="links link-active" href="/" >Home</a>
         </li>
          <li class="list-item-inline">
-            <a class=" links" href="/" >Projects</a>
+            <a class=" links" href="/projects.html" >Projects</a>
         </li>
          <li class="list-item-inline">
-            <a class="links" href="/" >Blogs</a>
+            <a class="links" href="/blogs.html" >Blogs</a>
         </li>
         </ul>
+        </nav>
 
-    </nav>
-    <hr>
-    <h2>@header</h2>
-    <header class="main">
-        <img class="main-image" src="images/image.svg"/>
-        <h1 class="main-heading">Adarsh balika the web Developer</h1>
-    </header>
-    <hr>
-    <h2>@section</h1>
-    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
-    <section class="section"> 
-        <h1>@normal section</h2>
-        <p>This will have white background</p>
-    </section>
-    <section class="section section-ow">
-        <h1>@off white section</h2>
-        <p>This will have grey background</p>
-    </section>
-    <hr>
 
-     
-    <h1>@footer</h1>
-    <footer class="main-footer">
-        <div class="header-footer">Connect Socially</div>
-        <ul class="non-bullet-list">
-            <li class="list-item-inline">
-                <a class="link" href="/">Socialone</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">Socialtwo</a>
-            </li>
-            <li class="list-item-inline"> 
-                <a class="link" href="/">Socialthree</a>
-            </li>
-          </ul>
-    </footer>
-  
-    
- 
+        <header class="main">
+            <img class="main-image" src="images/image.svg"/>
+            <h1 class="main-heading">Aspire the <span class="main-inverted">Web Developer</span></h1>
+        </header>
+        <section class="section section-ow">
+                <h1>technologies</h1>
+                    <p>I'm familiar with C,Java,Python,SQL,HTML5, CSS3, Git, JavaScript, and Web Hosting</p>
+        </section>
+        <section class="section"> 
+         <!-- <div class="center-container"> -->
+            <h1>Projects</h1>
+        <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+        <a class="primary-link" href ="/projects.html">primary link</a>
+        <section class="section section-ow">
+            <h1>Blogs</h1>
+            <p>I am also working on some non techincal blogs. I like to document my journey of learning.</p>
+            
+        </section>
+        <a class="secondary-link" href="/blogs.html">secondary link</a>
+        <footer class="main-footer">
+            <div class="header-footer">Social media presence</div>
+            <ul class="non-bullet-list">
+                <li class="list-item-inline">
+                    <a class="link" href="https://github.com/SahithiKonduri">github</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://twitter.com/Sahithi_Konduri">twitter</a>
+                </li>
+                <li class="list-item-inline"> 
+                    <a class="link" href="https://www.linkedin.com/in/sahithi-konduri-706aa4214/">linkedin</a>
+                </li>
+              </ul>
+        </footer>
+      
 </body>
 </html>
