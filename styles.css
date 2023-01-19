@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex Sans sans-serif=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .root {
     --primary-color: #fca5a5;
 }
 body 
 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    max-width: 85%;
-    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 75%;
+    margin: 0rem auto;
+    padding: 0rem;
 }
 div {
     display: block;
@@ -27,7 +28,7 @@ h1 {
 }
 .center-container {
     max-width: 900px;
-    margin:auto;
+    margin: 0rem auto;
     text-align: center;
     padding: 2rem 0rem;
 }
@@ -84,6 +85,7 @@ h1 {
 }
 .main {
     padding:1rem;
+    
 }
 .main .main-image{
     max-width: 350px;
@@ -112,7 +114,7 @@ h1 {
 .section-ow{
     background-color: #f3f4f6;
     border-radius: 1rem 1rem;
-    padding-top: 1rem;
+    padding-top: 0rem;
     text-align: center;
     display: block;
 }
@@ -122,10 +124,12 @@ h1 {
     text-decoration: none;
 }
 .showcase-list {
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
     text-align: center;
-    margin : 3rem auto;
+    margin : 2rem auto;
+   
+  
 }
 
 .main-footer{
@@ -133,10 +137,20 @@ h1 {
     padding:2rem 2rem;
     text-align: center;
     color:white;
-    margin-top: 30px;
+    margin-top:30px;
     margin-bottom: 30px;
     border-top-right-radius: 1rem;
 }
 ul{
     padding-inline-start: 0px;
+}
+
+.pgnot-fnd {
+    background-color: black;
+    color:whitesmoke;
+    box-shadow: #212f4f;
+    overflow: hidden;
+    max-width: 400px;
+    margin : 100px auto;
+    padding: 10px 75px 30px;
 }
