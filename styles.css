@@ -131,7 +131,7 @@ h1 {
 }
 
 .main-footer{
-    background-color: #fca5a5;
+    background-color:#fca5a5;
     padding:2rem 2rem;
     text-align: center;
     color:white;
@@ -153,6 +153,6 @@ ul{
     padding: 10px 75px 30px;
 }
 h1 span {  
-    color : #fca5a5
+    color : #fca5a5;
     
 }
